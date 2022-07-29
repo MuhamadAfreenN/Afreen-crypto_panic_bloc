@@ -1,0 +1,47 @@
+name: crypto_bloc
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+
+# allows us to compare two object for equality
+  equatable: ^2.0.3
+
+#enabling Android and iOS authentication using passwords, phone numbers and identity providers like Google, Facebook and Twitter
+  firebase_auth: ^3.0.1
+  firebase_core: ^1.4.0
+
+#invokes the listener in response to state changes in the bloc
+  flutter_bloc: ^7.0.1
+#a secure authentication system for signing in with a Google account
+  google_sign_in: ^5.0.5
+#consume HTTP resources
+  http:
+#to launch url
+  url_launcher: ^6.1.5
+#to format the time
+  timeago: ^3.2.2
+#to refresh the page
+  pull_to_refresh: ^2.0.0
+# to add font awesome icons
+  font_awesome_flutter:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
